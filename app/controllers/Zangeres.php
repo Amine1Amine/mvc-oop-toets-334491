@@ -14,7 +14,6 @@ class Zangeres extends BaseController
     {
         $result = $this->ZangeresModel->getZangeres();
 
-        var_dump($result);
 
         $rows = "";
         foreach ($result as $Zangeres) {
