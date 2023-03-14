@@ -16,7 +16,7 @@ class ZangeresModel
                         ,Nettowaarde
                         ,Land
                         ,Mobiel
-                        ,Leeftijfd
+                        ,Leeftijd
                 FROM   Zangeres";
 
         $this->db->query($sql);
